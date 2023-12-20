@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ .midlle-scrol::-webkit-scrollbar {
+        width: 0;
+        height: 2em;
+    } 
+
+.left-scroll{
+    background: rgb(247, 249, 249);
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+  }
+
+ 
+ .tabLink p{
+    user-select: none;
+  }
